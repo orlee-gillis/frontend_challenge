@@ -2,27 +2,29 @@
   box-sizing: border-box;
 }
 
+div.wrapper {
+  width: 400px;
+  list-style-type: none;
+}
 div.statusbar {
   height: 24px;
   background-color: white;
   float:right;
-  padding-left: 78%;
-  padding-right: 12px;
   display: inline;
   padding-top: 4px;
+  padding-left: 75%;
+  width: 100%;
 }
 
-div.blue {
+nav.blue {
   background-color: #007AE5;
   height: 84px;
   width: 100%;
-  text-align: center;
 
 }
 
 img.back {
 padding-bottom: 8px;
-padding-right: 16px;
 padding-top: 18px;
 padding-left: 16px;
 float: left;
@@ -33,28 +35,29 @@ color: #FFFFFF;
 font-size: 24px;
 font-family: "Roboto", sans-serif;
 padding-top: 16px;
-padding-left: 32px;
+padding-left: 60px;
+text-align: center;
 float: left;
 text-align: center;
 
 }
 
 
-section.buses {
+li.route {
 background-color: white;
 font-size: 18px;
 font-family: "Roboto", sans-serif;
 font-weight: medium;
 font: black;
+margin: 0;
+padding-top:32px;
+list-style-type: none;
+float: left;
 }
 
-div.container {
-  display: inline;
-}
 h2 {
-  padding-top: 32px;
   padding-bottom: 8px;
-  padding-left: 16px;s
+  padding-left: 16px;
   font-size: 18px;
   font-weight: medium;
   width: 80%;
@@ -69,17 +72,23 @@ h3 {
   float: left;
 }
 
-ul.next {
+div.next {
   float:left;
   padding-left: 16px;
   padding-top: 16px;
 }
 
-ul.times {
+img.next {
+  float:left;
+  padding-right: 8px;
+}
+p.times {
   font-style: italic;
   font-size: 14px;
   color: #4A4A4A;
   font-weight: lighter;
+  float: left;
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -87,12 +96,14 @@ div.circle {
   width:94px;
   height:91px;
   border-radius: 50%;
-  background-color: #1e88e5;
+  background-color: rgb(0, 129, 233, 0.42);
   line-height: 94px;
   text-align: center;
-  color: #FFFFFF;
+  color: black;
   float: right;
   margin-right: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
 }
 
 
