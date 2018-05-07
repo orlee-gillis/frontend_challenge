@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-<section class="statusbar">
-  <img src="assets/Statusbarcontentdark.png" alt="status bar">
-<section class="blue">
+<div class="statusbar">
+  <img src="/assets/status bar.png" alt="status bar">
+</div>
+<div class="blue">
 <nav>
-  <div class="navigation">
     <img class="back" src="assets/back.png" alt="back arrow">
     <h1>Washington & State</h1>
   </div>
 </nav>
+
 <section class="buses">
     <ul>
       <li>
         <ul>
+          <div class="container">
           <li>
             <h2>Fisherman's Wharf</h2>
             <h3>Line 3 || Eastbound</h3>
           </li>
-
+          <li class="next">
+          <img src ="assets/clock-line-13.svg" alt="clock">
+          <ul class="times">7:23, 7:31, 7:39</ul>
+        </li>
+          </div>
          <div class="circle">
            <li>7:16</li>
          </div>
@@ -33,10 +39,16 @@
       </li>
       <li>
         <ul>
+          <div class="container">
           <li>
             <h2>Holiday Inn</h2>
             <h3>Line 25 || Southbound</h3>
           </li>
+          <li class="next">
+          <img src ="assets/clock-line-13.svg" alt="clock">
+          <ul class="times">7:23, 7:31, 7:39</ul>
+        </li>
+        </div>
           <div class="circle">
             <li>7:19</li>
           </div>
@@ -44,19 +56,29 @@
       </li>
       <li>
         <ul>
+          <div class="container">
           <li>
             <h2>Golden Gate Bridge</h2>
             <h3>Line B || Northbound</h3>
             </li>
+            <li class="next">
+            <img src ="assets/clock-line-13.svg" alt="clock">
+            <ul class="times">7:23, 7:31, 7:39</ul>
+          </li>
+          </div>
             <div class="circle">
               <li>7:20</li>
             </div>
         </ul>
       </li>
     </ul>
-    <nav class="black">
-      <li class="buttons"></li>
-    </nav>
+
+<div class="footer">
+  <img class = "navback" src="assets/back.svg" alt="nav back">
+  <img class = "navhome" src="assets/home.svg" alt="nav home">
+  <img class = "navrecent" src="assets/recent.svg" alt="nav recent">
+
+</div>
 
   </body>
 </html>
