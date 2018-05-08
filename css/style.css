@@ -2,9 +2,12 @@
   box-sizing: border-box;
 }
 
+body {
+}
 div.wrapper {
   width: 400px;
   list-style-type: none;
+  margin: 0 auto;
 }
 div.statusbar {
   height: 24px;
@@ -49,65 +52,55 @@ font-size: 18px;
 font-family: "Roboto", sans-serif;
 font-weight: medium;
 font: black;
-margin: 0;
-padding-top:32px;
+margin: 16px;;
 list-style-type: none;
 float: left;
+display: inline-block;
 }
 
+
+
 h2 {
-  padding-bottom: 8px;
-  padding-left: 16px;
   font-size: 18px;
   font-weight: medium;
-  width: 80%;
-  float:left;
+  line-height: 40px;
 }
 
 h3 {
-  padding-left: 16px;
   font-size: 16px;
   font-weight: bold;
-  width:70%;
-  float: left;
+  line-height: 30px;
 }
 
-div.next {
-  float:left;
-  padding-left: 16px;
-  padding-top: 16px;
-}
 
-img.next {
-  float:left;
-  padding-right: 8px;
-}
-p.times {
+h4 {
   font-style: italic;
   font-size: 14px;
   color: #4A4A4A;
   font-weight: lighter;
-  float: left;
   font-family: "Roboto", sans-serif;
+  padding-bottom: 16px;
 }
 
 
-div.circle {
-  width:94px;
-  height:91px;
-  border-radius: 50%;
+p {
+  width:70px;
+  height:40px;
+  line-height: 20px;
+  border-radius: 8%;
   background-color: rgb(0, 129, 233, 0.42);
-  line-height: 94px;
   text-align: center;
   color: black;
   float: right;
-  margin-right: 16px;
+  margin: 16px;
+  padding-top: 10px;
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 90);
 }
 
 
-div.footer {
+footer {
   background-color: black;
   height: 48px;
   width:100%;
