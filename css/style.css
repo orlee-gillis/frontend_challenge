@@ -33,6 +33,11 @@ padding-left: 16px;
 float: left;
 }
 
+ul {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  max-width: 90%;
+}
 h1 {
 color: #FFFFFF;
 font-size: 24px;
@@ -52,7 +57,7 @@ font-size: 18px;
 font-family: "Roboto", sans-serif;
 font-weight: medium;
 font: black;
-margin: 16px;;
+margin: 16px;
 list-style-type: none;
 float: left;
 display: inline-block;
@@ -64,6 +69,7 @@ h2 {
   font-size: 18px;
   font-weight: medium;
   line-height: 40px;
+  margin-bottom: 8px;
 }
 
 h3 {
@@ -82,21 +88,20 @@ h4 {
   padding-bottom: 16px;
 }
 
-
 p {
-  width:70px;
-  height:40px;
-  line-height: 20px;
-  border-radius: 8%;
+  width:65px;
+  height:65px;
+  line-height: 70px;
+  border-radius: 60%;
   background-color: rgb(0, 129, 233, 0.42);
   text-align: center;
-  color: black;
   float: right;
-  margin: 16px;
-  padding-top: 10px;
+  margin-right: 16px;
+  margin-top: 42px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: rgba(0, 0, 0, 90);
+
 }
 
 
