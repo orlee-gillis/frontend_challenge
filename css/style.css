@@ -83,7 +83,6 @@ h4 {
 }
 
 li.times {
-  float: left;
   margin-right: 0px;
   margin-left: 84px;
 }
@@ -98,10 +97,10 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: rgba(0, 0, 0, 90);
-  margin-bottom: 8px;
 
 
 }
+
 
 
 footer {
