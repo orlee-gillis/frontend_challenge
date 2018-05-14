@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-}
 div.wrapper {
   width: 400px;
   list-style-type: none;
@@ -24,6 +22,7 @@ nav.blue {
   height: 84px;
   width: 100%;
 
+
 }
 
 img.back {
@@ -33,11 +32,7 @@ padding-left: 16px;
 float: left;
 }
 
-ul {
-  margin-top: 8px;
-  margin-bottom: 8px;
-  max-width: 90%;
-}
+
 h1 {
 color: #FFFFFF;
 font-size: 24px;
@@ -46,36 +41,34 @@ padding-top: 16px;
 padding-left: 60px;
 text-align: center;
 float: left;
-text-align: center;
 
 }
 
-
-li.route {
+li {
 background-color: white;
 font-size: 18px;
 font-family: "Roboto", sans-serif;
 font-weight: medium;
 font: black;
-margin: 16px;
-list-style-type: none;
 float: left;
-display: inline-block;
 }
-
 
 
 h2 {
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: medium;
-  line-height: 40px;
-  margin-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+margin-left: 16px;
 }
+
 
 h3 {
   font-size: 16px;
   font-weight: bold;
   line-height: 30px;
+  margin-left: 16px;
 }
 
 
@@ -85,7 +78,14 @@ h4 {
   color: #4A4A4A;
   font-weight: lighter;
   font-family: "Roboto", sans-serif;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+li.times {
+  float: left;
+  margin-right: 0px;
+  margin-left: 84px;
 }
 
 p {
@@ -95,12 +95,11 @@ p {
   border-radius: 60%;
   background-color: rgb(0, 129, 233, 0.42);
   text-align: center;
-  float: right;
-  margin-right: 16px;
-  margin-top: 42px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: rgba(0, 0, 0, 90);
+  margin-bottom: 8px;
+
 
 }
 
