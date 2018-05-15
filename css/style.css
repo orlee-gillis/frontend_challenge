@@ -21,28 +21,28 @@ nav.blue {
   background-color: #007AE5;
   height: 84px;
   width: 100%;
-
-
 }
-
-img.back {
-padding-bottom: 8px;
-padding-top: 18px;
-padding-left: 16px;
-float: left;
-}
-
 
 h1 {
 color: #FFFFFF;
 font-size: 24px;
 font-family: "Roboto", sans-serif;
-padding-top: 16px;
-padding-left: 60px;
 text-align: center;
-float: left;
-
 }
+
+
+
+img.back {
+padding-bottom: 8px;
+padding-left: 16px;
+float: left;
+}
+
+ul {
+  float: left;
+}
+
+
 
 li {
 background-color: white;
@@ -50,7 +50,6 @@ font-size: 18px;
 font-family: "Roboto", sans-serif;
 font-weight: medium;
 font: black;
-float: left;
 }
 
 
@@ -58,9 +57,9 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: medium;
-  margin-top: 32px;
+  margin-top: 22px;
   margin-bottom: 16px;
-margin-left: 16px;
+  margin-left: 16px;
 }
 
 
@@ -83,9 +82,12 @@ h4 {
 }
 
 li.times {
-  margin-right: 0px;
-  margin-left: 84px;
+  float: right;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 20px;
 }
+
 
 p {
   width:65px;
@@ -97,8 +99,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: rgba(0, 0, 0, 90);
-
-
+  margin: 10px;
 }
 
 
