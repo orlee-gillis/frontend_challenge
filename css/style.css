@@ -1,7 +1,10 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
+body {
+  width:400px;
+  margin: 0 auto;
+}
 div.wrapper {
   width: 400px;
   list-style-type: none;
@@ -48,35 +51,16 @@ ul {
 li.direction {
 font-size: 18px;
 font-weight: medium;
-width: 100%;
+float: left;
+display: inline-block;
 }
 
-ul {
 
-}
 li.times {
-width: 10%;
+width: 15%;
 float: right;
+display: inline-block;
 }
-li.bus {
-width:60%;
-}
-h3 {
-  font-size: 16px;
-  font-weight: medium;
-  line-height: 30px;
-}
-
-
-h4 {
-
-  font-size: 14px;
-  font-weight: lighter;
-  font-style: italic;
-  color: #4A4A4A;
-
-}
-
 
 p {
   width:65px;
@@ -90,6 +74,28 @@ p {
   color: rgba(0, 0, 0, 90);
 
 }
+li.bus {
+width:60%;
+display: inline-block;
+}
+h3 {
+  font-size: 16px;
+  font-weight: medium;
+  line-height: 30px;
+display: inline-block;
+}
+
+
+h4 {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #4A4A4A;
+display: inline-block;
+}
+
+
+
 
 footer {
   background-color: black;
