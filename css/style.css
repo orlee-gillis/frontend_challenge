@@ -49,15 +49,18 @@ ul {
 }
 
 li.direction {
-font-size: 18px;
+font-size: 20px;
 font-weight: medium;
 float: left;
 display: inline-block;
+width: 80%;
+margin-top: 16px;
+margin-left: 16px;
 }
 
 
 li.times {
-width: 10%;
+width: 20%;
 float: right;
 display: inline-block;
 }
@@ -75,13 +78,17 @@ p {
 
 }
 li.bus {
-width:85%;
+  width: 60%;
 display: inline-block;
+margin-left: 16px;
+
 }
 h3 {
   font-size: 16px;
   font-weight: medium;
   line-height: 30px;
+  margin-top: 10px;
+
 }
 
 
