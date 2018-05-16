@@ -54,6 +54,10 @@ width: 100%;
 ul {
 
 }
+li.times {
+width: 10%;
+float: right;
+}
 li.bus {
 width:60%;
 }
@@ -72,10 +76,7 @@ h4 {
   color: #4A4A4A;
 
 }
-li.times {
-width: 10%;
-float: right;
-}
+
 
 p {
   width:65px;
