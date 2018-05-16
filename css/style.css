@@ -5,7 +5,7 @@
 div.wrapper {
   width: 400px;
   list-style-type: none;
-  margin: 0 auto;
+  width: 90%;
 }
 div.statusbar {
   height: 24px;
@@ -32,7 +32,6 @@ text-align: center;
 }
 
 
-
 img.back {
 padding-left: 16px;
 float: left;
@@ -40,30 +39,25 @@ float: left;
 }
 
 ul {
-  float: left;
-}
-
-
-
-li {
-background-color: white;
-font-size: 18px;
-font-family: "Roboto", sans-serif;
-font-weight: medium;
-font: black;
-}
-
-
-h2 {
+  background-color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 22px;
-  margin-left: 16px;
-  margin-bottom: 8px;
+  font: black;
+}
+
+li.direction {
+font-size: 18px;
+font-weight: medium;
 }
 
 
+
+
+}
+li.bus {
+  width:70%;
+  font-weight: medium;
+  font-size: 16px;
+}
 h3 {
   font-size: 16px;
   font-weight: medium;
@@ -76,15 +70,12 @@ h4 {
   font-size: 14px;
   color: #4A4A4A;
   font-weight: lighter;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 16px;
-}
 
+}
 li.times {
-  max-width: 95%;
-  margin-left: 16px;
+width: 10%;
+float: right;
 }
-
 
 p {
   width:65px;
@@ -96,13 +87,8 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: rgba(0, 0, 0, 90);
-  float: right;
-  max-width: 5%;
+
 }
-
-
-
-
 
 footer {
   background-color: black;
